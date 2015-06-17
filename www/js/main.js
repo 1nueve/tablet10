@@ -8,6 +8,7 @@ var menuActivo = false;
 var screenActivo = true;
 function loadMenu(hash, display) {
     /** Variables de configuracion **/
+    //var url = "http://198.1.89.58/~appel10/el10/p.php?categoria="; //antes produccion
     var url = "http://eldiez.apps.godisruptive.com/p.php?categoria="; //produccion
     var SIN_IMAGEN = new Array('cafeteria', 'bebidas');
     var pagina = url + hash;
