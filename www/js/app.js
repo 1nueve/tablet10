@@ -1,6 +1,6 @@
 	function loadMenu(hash, display){
 		
-		var url = "http://198.1.89.58/~appel10/el10/";
+		var url = "http://eldiez.apps.godisruptive.com/";
 		var id = hash;
 		var pagina = hash+".php";
 		var display = display;
@@ -33,7 +33,7 @@
 						if(p_nombre!=""){
 							var pnombre = p_nombre.replace(/'/g, "&apos;").replace(/"/g, "&quot;");
 							if(display==1){
-								conte += '<figure class="item"><figcaption><h2 id="nombre">'+pnombre+'</h2><p id="descripcion">'+p_descripcion+'</p><h3 id="precio">$'+item.precio+'</h3><nav class="social"><a href="#" class="facebook" onclick="window.plugins.socialsharing.shareViaFacebook(\'Menú El Diez: '+pnombre+' Ver mas en http://eldiez.com.mx\', null, null, function() {console.log(\'share ok\')}, function(errormsg){alert(errormsg)})"><i class="i-facebook"></i></a><a href="#" class="twitter" onclick="window.plugins.socialsharing.shareViaTwitter(\'Menú El Diez: '+pnombre+' Ver mas en http://eldiez.com.mx\')"><i class="i-twitter"></i></a></nav></figcaption><img src="http://198.1.89.58//~appel10/el10/menu/'+item.imagen+'.jpg"></figure>';
+								conte += '<figure class="item"><figcaption><h2 id="nombre">'+pnombre+'</h2><p id="descripcion">'+p_descripcion+'</p><h3 id="precio">$'+item.precio+'</h3><nav class="social"><a href="#" class="facebook" onclick="window.plugins.socialsharing.shareViaFacebook(\'Menú El Diez: '+pnombre+' Ver mas en http://eldiez.com.mx\', null, null, function() {console.log(\'share ok\')}, function(errormsg){alert(errormsg)})"><i class="i-facebook"></i></a><a href="#" class="twitter" onclick="window.plugins.socialsharing.shareViaTwitter(\'Menú El Diez: '+pnombre+' Ver mas en http://eldiez.com.mx\')"><i class="i-twitter"></i></a></nav></figcaption><img src="http://eldiez.apps.godisruptive.com/menu/'+item.imagen+'.jpg"></figure>';
 							}
 						}
 					});
@@ -69,7 +69,7 @@
 
 	function loadMenuLista(hash, display){
 		
-		var url = "http://198.1.89.58//~appel10/el10/";
+		var url = "http://eldiez.apps.godisruptive.com/";
 		var id = hash;
 		var pagina = hash+".php";
 		var display = display;
@@ -104,7 +104,7 @@
 						if(p_nombre!=""){
 							var pnombre = p_nombre.replace(/'/g, "&apos;").replace(/"/g, "&quot;");
 							if(display==1){
-								conte += '<figure class="item"><figcaption><h2 id="nombre">'+pnombre+'</h2><p id="descripcion">'+p_descripcion+'</p><h3 id="precio">$'+item.precio+'</h3><nav class="social"><a href="#" class="facebook" onclick="window.plugins.socialsharing.shareViaFacebook(\'Menú El Diez: '+pnombre+' Ver mas en http://eldiez.com.mx\', null, null, function() {console.log(\'share ok\')}, function(errormsg){alert(errormsg)})"><i class="i-facebook"></i></a><a href="#" class="twitter" onclick="window.plugins.socialsharing.shareViaTwitter(\'Menú El Diez: '+pnombre+' Ver mas en http://eldiez.com.mx\')"><i class="i-twitter"></i></a></nav></figcaption><img src="http://198.1.89.58//~appel10/el10/menu/'+item.imagen+'.jpg"></figure>';
+								conte += '<figure class="item"><figcaption><h2 id="nombre">'+pnombre+'</h2><p id="descripcion">'+p_descripcion+'</p><h3 id="precio">$'+item.precio+'</h3><nav class="social"><a href="#" class="facebook" onclick="window.plugins.socialsharing.shareViaFacebook(\'Menú El Diez: '+pnombre+' Ver mas en http://eldiez.com.mx\', null, null, function() {console.log(\'share ok\')}, function(errormsg){alert(errormsg)})"><i class="i-facebook"></i></a><a href="#" class="twitter" onclick="window.plugins.socialsharing.shareViaTwitter(\'Menú El Diez: '+pnombre+' Ver mas en http://eldiez.com.mx\')"><i class="i-twitter"></i></a></nav></figcaption><img src="http://eldiez.apps.godisruptive.com/menu/'+item.imagen+'.jpg"></figure>';
 							}
 						}
 					});
@@ -138,7 +138,7 @@
 
 	function loadSucursales(hash){
 		
-		var url = "http://198.1.89.58//~appel10/el10/";
+		var url = "http://eldiez.apps.godisruptive.com/";
 		var pagina = "sucursal.php";
 		console.log("vamos a pedir la url "+url+pagina);
 
@@ -189,7 +189,7 @@
 /* generar ficha de sucursal */
 	function loadSucursal(hash){
 		
-		var url = "http://198.1.89.58//~appel10/el10/";
+		var url = "http://eldiez.apps.godisruptive.com/";
 		var pagina = "suc"+hash+".php";
 		console.log("vamos a pedir la url "+url+pagina);
 
@@ -388,7 +388,7 @@ $(document).on('click', '.item.open', function() {
 		
 		var messageDelay = 3000;
 		var envmensajeria = $(this);
-		var url = "http://198.1.89.58//~appel10/el10/";
+		var url = "http://eldiez.apps.godisruptive.com/";
 
 		// Enviamos el formulario usando AJAX
 		$.ajax({
